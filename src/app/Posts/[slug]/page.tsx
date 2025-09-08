@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { getPostBySlug, getAllPostSlugs } from "@/lib/blog"
-import { BlogHeader } from "@/components/blog-header"
-import { MarkdownRenderer } from "@/components/markdown-renderer"
+import { BlogHeader } from "@/components/blogHeader"
+import { MarkdownRenderer } from "@/components/render"
 
 interface PostPageProps {
   params: Promise<{ slug: string }>
