@@ -1,7 +1,7 @@
 
 import { getAllPosts } from "@/lib/blog"
-import { BlogHeader } from "@/components/blog-header"
-import { BlogPostCard } from "@/components/blog-post-card"
+import { BlogHeader } from "@/components/blogHeader"
+import { BlogPostCard } from "@/components/blogPost"
 
 export default function HomePage() {
   const posts = getAllPosts()
